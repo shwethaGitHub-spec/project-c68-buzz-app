@@ -11,7 +11,8 @@ export default class FBScreen extends React.Component{
           alignSelf:'center',
           alignItems:'center',
           fontWeight:'bold',
-          alignContent:'center'
+          alignContent:'center',
+          margin:300
         }}>
           Facebook Screen
         </Text>

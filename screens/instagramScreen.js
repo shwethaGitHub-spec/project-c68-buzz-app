@@ -11,7 +11,8 @@ export default class IGScreen extends React.Component{
           alignSelf:'center',
           alignItems:'center',
           fontWeight:'bold',
-          alignContent:'center'
+          alignContent:'center',
+          margin:300
         }}>
           Instagram Screen
         </Text>
