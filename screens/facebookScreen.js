@@ -7,12 +7,13 @@ export default class FBScreen extends React.Component{
       <View>
         <Text
         style = {{
-          fontSize:22,
+          fontSize:30,
           alignSelf:'center',
           alignItems:'center',
-          fontWeight:'bold'
+          fontWeight:'bold',
+          alignContent:'center'
         }}>
-          Facebook
+          Facebook Screen
         </Text>
       </View>
     );

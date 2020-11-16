@@ -7,12 +7,13 @@ export default class IGScreen extends React.Component{
       <View>
         <Text
         style = {{
-          fontSize:22,
+          fontSize:30,
           alignSelf:'center',
           alignItems:'center',
-          fontWeight:'bold'
+          fontWeight:'bold',
+          alignContent:'center'
         }}>
-          Instagram
+          Instagram Screen
         </Text>
       </View>
     );

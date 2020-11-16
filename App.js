@@ -1,8 +1,8 @@
 import React from 'react';
 import {createBottomTabNavigator} from 'react-navigation-tabs';
 import {createAppContainer} from 'react-navigation';
-import Facebook from './screens/facebookScreen';
-import Instagram from './screens/instagramScreen';
+import FBScreen from './screens/facebookScreen';
+import IGScreen from './screens/instagramScreen';
 
 
 export default class App extends React.Component{
@@ -14,8 +14,8 @@ export default class App extends React.Component{
 }
 
 const TabNavigator = createBottomTabNavigator({
-  FB: {screens:Facebook},
-  Instagram: {screens:Instagram}
+  FB: {screen:FBScreen},
+  Instagram: {screen:IGScreen}
 
 });
 const AppContainer = createAppContainer(TabNavigator);
